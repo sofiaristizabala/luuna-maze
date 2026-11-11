@@ -1,0 +1,15 @@
+/* Ajustes del prototipo */
+[data-mz-item], [data-mz-link] { cursor: pointer; }
+.dropDownMenu > :first-child { cursor: pointer; }
+.dropDownMenu.mz-collapsed > .links { display: none !important; }
+.dropDownMenu.mz-collapsed > :first-child .builder-custom-code svg { display: none; }
+.dropDownMenu.mz-collapsed > :first-child .builder-custom-code::after { content: "+"; font-size: 24px; line-height: 1; }
+
+/* Páginas de destino */
+.mz-stub { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f7f5f2; color: #1a1a1a; }
+.mz-stub__bar { background: #000; padding: 18px 24px; }
+.mz-stub__bar a { color: #fff; font-weight: 700; font-size: 24px; text-decoration: none; }
+.mz-stub__main { max-width: 560px; margin: 0 auto; padding: 72px 24px; text-align: center; }
+.mz-stub__eyebrow { text-transform: uppercase; letter-spacing: 1px; font-size: 12px; color: #6b6b6b; }
+.mz-stub h1 { font-size: 32px; margin: 8px 0 16px; }
+.mz-stub__btn { display: inline-block; margin-top: 24px; background: #d32f2f; color: #fff; padding: 12px 24px; border-radius: 999px; text-decoration: none; font-weight: 600; }
