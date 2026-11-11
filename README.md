@@ -9,7 +9,7 @@ El home es una maqueta general; lo interactivo es la navegación:
 - Cada link lleva a una página destino `go/<ruta>/` (ver `destinos.json`), útil para definir las rutas esperadas / éxito de la tarea en Maze.
 
 ## Maze
-Si Maze te pide instalar su snippet, pégalo donde dice `<!-- MAZE_SNIPPET -->` en `index.html`, `mobile.html` y `go/*/index.html`.
+El snippet de Maze ya está instalado justo después de `<head>` en todas las páginas.
 
 ## Local
 ```bash
